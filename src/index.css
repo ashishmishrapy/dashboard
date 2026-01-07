@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* #F1EDED */
+:root {
+  --bg-off-white: #F2EEEE;
+  --bg-white: #FBFBFB;
+  --bg-pink: #D72F59;
+  --bg-gray: #F0F0F0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 400; */
+  font-style: normal;
+}
+
+body{
+  background-color: var(--bg-off-white);
+}
+.striped-bar {
+  background: repeating-linear-gradient(
+    45deg,
+    #e5e7eb,
+    #e5e7eb 6px,
+    #f9fafb 6px,
+    #f9fafb 12px
+  );
+}
